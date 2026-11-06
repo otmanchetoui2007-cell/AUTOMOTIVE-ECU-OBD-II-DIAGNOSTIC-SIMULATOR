@@ -1,8 +1,3 @@
-## Dashboard Preview
-
-![Automotive OBD-II Diagnostic Dashboard](docs/images/dashboard.png)
-# Automotive ECU & OBD-II Diagnostic Simulator
-
 <p align="center">
 
 **A Virtual Automotive Engine Control Unit (ECU) and Real-Time OBD-II Diagnostic Tool**
@@ -10,6 +5,12 @@
 Built with C, Python, SocketCAN, and Linux.
 
 </p>
+---
+
+## Dashboard Preview
+
+![Automotive OBD-II Diagnostic Dashboard](docs/images/dashboard.png)
+# Automotive ECU & OBD-II Diagnostic Simulator
 
 ---
 
