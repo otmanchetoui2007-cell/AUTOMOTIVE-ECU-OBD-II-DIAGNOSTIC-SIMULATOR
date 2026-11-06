@@ -1,0 +1,42 @@
+# ==========================================
+# SCANTOOL - CONFIGURATION
+# ==========================================
+
+# -------- CAN CONFIGURATION --------
+
+CAN_INTERFACE = "socketcan"
+CAN_CHANNEL = "vcan0"
+
+CAN_REQUEST_ID = 0x7DF
+CAN_RESPONSE_ID = 0x7E8
+
+CAN_FRAME_LENGTH = 8
+
+CAN_TIMEOUT = 2.0
+
+
+# -------- OBD-II SERVICES --------
+
+OBD_SERVICE_CURRENT_DATA = 0x01
+OBD_SERVICE_FREEZE_FRAME = 0x02
+OBD_SERVICE_READ_DTC = 0x03
+OBD_SERVICE_CLEAR_DTC = 0x04
+
+
+# -------- SUPPORTED PIDs --------
+
+PID_COOLANT_TEMP = 0x05
+PID_ENGINE_RPM = 0x0C
+PID_VEHICLE_SPEED = 0x0D
+PID_THROTTLE_POSITION = 0x11
+PID_CONTROL_MODULE_VOLTAGE = 0x42
+
+
+# -------- ISO-TP CONFIGURATION --------
+
+ISO_TP_SINGLE_FRAME = 0x00
+
+
+# -------- ECU RESPONSE --------
+
+OBD_RESPONSE_OFFSET = 0x40

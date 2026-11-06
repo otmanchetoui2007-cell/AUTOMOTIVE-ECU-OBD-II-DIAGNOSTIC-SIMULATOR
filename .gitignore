@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# C / C++
+*.o
+*.a
+*.so
+
+# Executables and generated files
+ecu_simulator/output/
+*.exe
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
